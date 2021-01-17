@@ -128,6 +128,10 @@ header.sticky ul li a{
     font-size: 24px;
     margin-bottom: 10px;
 }
+.contentBx p{
+    font-size: 21px;
+    /* margin-bottom: 10px; */
+}
 .w50{
     min-width: 50%;
 }
@@ -169,6 +173,71 @@ img{
     font-weight: 500;
 }
 
+.skills{
+    list-style: none;
+    color: #fff;
+    width: 500px;
+    margin: 60px auto;
+}
+.skill{
+    text-align: center;
+    font-size: 24px;
+}
+.skills h1{
+    /* padding: 50px; */
+    margin: 40px;
+    /* font-size: 2; */
+}
+/* .skills h3{
+    margin: 10px;
+} */
+.skills li{
+    margin: 20px 0;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 16px;
+    border: 4px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    /* overflow: hidden; */
+    /* box-shadow: 0  10px #2187e7b3; */
+}
+.bar span{
+     height: 8px;
+     float: left;
+     background :#ffcc00;
+}
+.python{
+    width: 60%;
+    animation: html 2s;
+}
+.java{
+    width: 40%;
+}
+.cpp{
+    width: 50%;
+}
+/* .web{
+    padding: 30px;
+} */
+.html{
+    width: 70%;
+}
+.css{
+    width: 40%;
+}
+.javascript{
+    width: 20%;
+}
+.php{
+    width: 60%;
+}
+.mysql{
+    width: 50%;
+}
+
+
 /* Work */
 .work .content{
     display: flex;
@@ -176,7 +245,7 @@ img{
     flex-wrap: wrap;
 }
 .work .content .workBx{
-    width: 50%;
+    width: 20%;
     padding: 20px;
 }
 .work .content .workBx img{
@@ -353,8 +422,14 @@ img{
     section{
         padding: 100px 50px;
     }
+    .textBx{
+        /* margin-bottom: 80%; */
+        margin-bottom: auto;
+        /* padding-bottom: 80%; */
+    }
     .banner{
         padding: 150px 50px 100px;
+        
     }
     .banner h2{
         font-size: 1.5em;
@@ -364,13 +439,16 @@ img{
     }
     .btn{
         margin-top: 10px;
-        padding: 10px 20px;
+        padding: 6px 15px;
         font-size: 16px;
     }
     .heading{
-        font-size: 24px;
+        font-size: 26px;
     }
     .contentBx h3{
+        font-size: 24px;
+    }
+    .contentBx p{
         font-size: 20px;
     }
     .content{
@@ -378,6 +456,15 @@ img{
     }
     .w50{
         margin-bottom: 20px;
+    }
+    .skills{
+        width: 100%;
+    }
+    .skills h2{
+        font-size: 22px;
+    }
+    .skills h3{
+        font-size: 16px;
     }
     .services .content .servicesBx{
         margin: 10px;
